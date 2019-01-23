@@ -1,61 +1,61 @@
-## java »ñÈ¡±¾»úÁ¬½Ó¹ýµÄËùÓÐWiFIÃÜÂë
-### windowsÖÐcmd¿ÉÒÔÍ¨¹ýÃüÁîÐÐÊäÈëÖ¸ÁîÀ´»ñÈ¡Á¬½Ó¹ýµÄWiFiÃû£º
+## java èŽ·å–æœ¬æœºè¿žæŽ¥è¿‡çš„æ‰€æœ‰WiFIå¯†ç 
+### windowsä¸­å¯ä»¥é€šè¿‡cmdå‘½ä»¤è¡Œè¾“å…¥æŒ‡ä»¤æ¥èŽ·å–è¿žæŽ¥è¿‡çš„WiFiåï¼š
 > netsh wlan show profiles
 
 ```
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : xiaobing
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : TP-LINK_B72F42
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : Smartisan personal hotspot
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : Bjgoodwill
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : Bjgoodwill-Guest
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : darenyu1404
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : IT5G
-    ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ : IT
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : xiaobing
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : TP-LINK_B72F42
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : Smartisan personal hotspot
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : Bjgoodwill
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : Bjgoodwill-Guest
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : darenyu1404
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : IT5G
+    æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶ : IT
 ```
  
-### È»ºó¿ÉÒÔÊäÈëÃüÁî,»ñÈ¡WiFiÃûÎª"IT" µÄÃÜÂë:
+### ç„¶åŽå¯ä»¥è¾“å…¥å‘½ä»¤,èŽ·å–WiFiåä¸º"IT" çš„å¯†ç :
 > netsh wlan show profiles name=IT key=clear
 
 ```
-½Ó¿Ú WLAN ÉÏµÄÅäÖÃÎÄ¼þ IT:
+æŽ¥å£ WLAN ä¸Šçš„é…ç½®æ–‡ä»¶ IT:
 =======================================================================
 
-ÒÑÓ¦ÓÃ: ËùÓÐÓÃ»§ÅäÖÃÎÄ¼þ
+å·²åº”ç”¨: æ‰€æœ‰ç”¨æˆ·é…ç½®æ–‡ä»¶
 
-ÅäÖÃÎÄ¼þÐÅÏ¢
+é…ç½®æ–‡ä»¶ä¿¡æ¯
 -------------------
-    °æ±¾                   : 1
-    ÀàÐÍ                   : ÎÞÏß¾ÖÓòÍø
-    Ãû³Æ                   : IT
-    ¿ØÖÆÑ¡Ïî               :
-        Á¬½ÓÄ£Ê½           : ×Ô¶¯Á¬½Ó
-        ÍøÂç¹ã²¥           : Ö»ÔÚÍøÂç¹ã²¥Ê±Á¬½Ó
-        AutoSwitch         : ÇëÎðÇÐ»»µ½ÆäËûÍøÂç
-        MAC Ëæ»ú»¯: ½ûÓÃ
+    ç‰ˆæœ¬                   : 1
+    ç±»åž‹                   : æ— çº¿å±€åŸŸç½‘
+    åç§°                   : IT
+    æŽ§åˆ¶é€‰é¡¹               :
+        è¿žæŽ¥æ¨¡å¼           : è‡ªåŠ¨è¿žæŽ¥
+        ç½‘ç»œå¹¿æ’­           : åªåœ¨ç½‘ç»œå¹¿æ’­æ—¶è¿žæŽ¥
+        AutoSwitch         : è¯·å‹¿åˆ‡æ¢åˆ°å…¶ä»–ç½‘ç»œ
+        MAC éšæœºåŒ–: ç¦ç”¨
 
-Á¬½ÓÉèÖÃ
+è¿žæŽ¥è®¾ç½®
 ---------------------
-    SSID ÊýÄ¿              : 1
-    SSID Ãû³Æ              :¡°IT¡±
-    ÍøÂçÀàÐÍ               : ½á¹¹
-    ÎÞÏßµçÀàÐÍ             : [ ÈÎºÎÎÞÏßµçÀàÐÍ ]
-    ¹©Ó¦ÉÌÀ©Õ¹Ãû           : ²»´æÔÚ
+    SSID æ•°ç›®              : 1
+    SSID åç§°              :â€œITâ€
+    ç½‘ç»œç±»åž‹               : ç»“æž„
+    æ— çº¿ç”µç±»åž‹             : [ ä»»ä½•æ— çº¿ç”µç±»åž‹ ]
+    ä¾›åº”å•†æ‰©å±•å           : ä¸å­˜åœ¨
 
-°²È«ÉèÖÃ
+å®‰å…¨è®¾ç½®
 -----------------
-    Éí·ÝÑéÖ¤         : WPA2 - ¸öÈË
-    ÃÜÂë                 : CCMP
-    Éí·ÝÑéÖ¤         : WPA2 - ¸öÈË
-    ÃÜÂë                 : Î´Öª
-    °²È«ÃÜÔ¿               : ´æÔÚ
-    ¹Ø¼üÄÚÈÝ            : 1234567890123
+    èº«ä»½éªŒè¯         : WPA2 - ä¸ªäºº
+    å¯†ç                  : CCMP
+    èº«ä»½éªŒè¯         : WPA2 - ä¸ªäºº
+    å¯†ç                  : æœªçŸ¥
+    å®‰å…¨å¯†é’¥               : å­˜åœ¨
+    å…³é”®å†…å®¹            : 1234567890123
 
-·ÑÓÃÉèÖÃ
+è´¹ç”¨è®¾ç½®
 -------------
-    ·ÑÓÃ                : ÎÞÏÞÖÆ
-    ×èÈû                : ·ñ
-    ½Ó½üÊý¾ÝÏÞÖÆ        : ·ñ
-    ¹ýÁ¿Êý¾ÝÏÞÖÆ        : ·ñ
-    ÂþÓÎ                : ·ñ
-    ·ÑÓÃÀ´Ô´            : Ä¬ÈÏ
+    è´¹ç”¨                : æ— é™åˆ¶
+    é˜»å¡ž                : å¦
+    æŽ¥è¿‘æ•°æ®é™åˆ¶        : å¦
+    è¿‡é‡æ•°æ®é™åˆ¶        : å¦
+    æ¼«æ¸¸                : å¦
+    è´¹ç”¨æ¥æº            : é»˜è®¤
 ```
