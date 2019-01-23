@@ -13,7 +13,7 @@
     所有用户配置文件 : IT
 ```
  
-### 然后可以输入命令,获取WiFi名为"IT" 的密码:
+### 然后可以再次通过输入命令,获取WiFi名为"IT" 的密码:
 > netsh wlan show profiles name=IT key=clear
 
 ```
